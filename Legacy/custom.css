@@ -1,0 +1,364 @@
+/*		VERSION 10.1    */
+
+
+
+
+/*GENERAL */
+body {
+
+    font-family: 'Exo', sans-serif;
+    text-decoration:none;
+    padding-top:3px;
+    
+}
+.subject-header          {
+    background:#A0A2A5;}
+
+
+.pagewidth{   /*   a hack so I can limit page width - cant do it in body tag */
+      
+}
+
+header{    
+    line-height:1;
+    margin-bottom:5px;
+    margin-right:3px;
+    text-align: center; 
+    display:flex;
+    
+}
+
+a:hover{
+    text-decoration: none;!important
+}
+a {
+  text-decoration: none;
+}
+
+
+/*     HEADER        ***************************/
+header{
+    display:flex;
+}
+.subject-question     {
+     width: 100%; 
+    margin-left:5px;
+    font-size: 1.2em;
+    font-weight: 300; 
+    color:lavender;
+    text-align: left;
+    height:30px;
+    background:#1D807D;
+    padding-top:10px;
+    padding-left:5px;
+    padding-bottom:0px;
+    padding-right:5px;   
+
+    border-top-left-radius: 3px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.logo{
+    width: 38px;
+    height:38px;
+    margin-left:3px;
+    margin-right:3px;
+    }
+
+/*      TOOLBAR    ***************************/
+.toolbar{ 
+    width:100%;
+   display:flex; 
+}
+.tool-buttons {
+    width:50px;
+     display:flex; 
+    flex-direction: row;
+}
+.toolbar-left{
+    Display:flex;
+    flex-direction: row;
+    align-items: center;
+    width:200px;
+}
+.tool-subjects{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    background:#e6e6e6;
+}
+.tool-label{
+    font-size: 10px;
+    color:black;
+    font-weight: 100;
+}
+.toolbar-left-right{
+     Display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.fullscreen-wrapper{
+    padding:5px;
+    margin-bottom: 5px;
+    
+}
+
+.btn {
+    padding:3px;
+    background:#28a745;;
+    border-radius: 2px;
+    font-size:10px;
+    border-style: none;
+    text-align: center;
+    margin: 2px;
+    transition: background-color .2s;
+    color:white;
+}
+.btn:hover {
+    background: #218838;
+    color:white;
+}
+.bob{}
+}
+label.btn-info {
+    padding:5px;
+    background:#28a745;;
+    color:white;
+    font-size:10px;
+    border-style: none;
+    text-align: center;
+    margin: 5px;
+    transition: background-color .2s;
+}
+label.btn-info:hover {
+        background:#218838;
+    color:white;
+}
+
+
+    .sharebox{
+        width:200px;
+        height:17px;
+        border:1px;
+        margin-left:5px;
+        font-size:0.7em;
+        background: #EAEFEE;
+        padding-bottom: 10px;
+        margin-bottom:40;
+        }
+	#chkShare { 
+		visibility: hidden; 
+		width: 0; 
+		height: 0; 
+		}
+	#chkShare ~ div {  
+		height 5s; 
+		height: 150; 
+		}
+	#chkShare:checked ~ div {
+	 	opacity: 0;
+	 	width: 70px; 
+	 	height: 0; 
+	 	}
+
+.fullscreen{
+    color:#1C77C3;
+    font-size: 10px;
+}			
+.avatar-section{
+     width:100%;
+    display:flex;
+     justify-content: flex-end;
+}
+	
+.avatar-selected a img{
+        padding:5px;
+        border-width: 5px #1C77C3;
+        height: 20px;
+        width:20px;
+    background-color:rgba(0,165,43, .8);
+		}
+    .avatar a img {
+        padding:5px;
+        opacity: 0.5;
+        height: 20px;
+        width:20px;
+    }
+.avatar a :hover{
+        opacity: 5;
+        padding:1px;
+        
+        border-width: 1px rgba(0,165,43, .8);
+        height: 40px;
+        width:40px;
+        
+    }   
+.avatar a :active{
+        opacity: 5;
+        padding:1px;
+        border-width: 1px rgba(0,165,43, .8);
+        height: 35px;
+        width:35px;
+      padding:5px;
+        border-width: 5px #1C77C3;
+    } 
+/**    COLUMNS-SECTION   *************************/	
+
+main{
+    vertical-align: top;
+    margin:0px;
+    border-radius: 3px;
+    background-color: #fff;
+    padding: 0px;
+    DISPLAY:FLEX;
+   }
+article{
+    padding: 2px;
+    margin-right:7px;
+    flex:1;
+    flex-direction: column;
+    box-sizing:border-box
+}
+
+.article-header, .subject-header, .item-container{
+    padding: 5px;
+}
+
+
+.article-header{
+    width:100%;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+    color:white;
+    flex:1;
+}
+.blue{
+     background:#1C77C3;
+}
+.green{
+     background:#1D807D;
+}
+.red{
+     background:#ED6A5E;;
+}
+.subject-header{
+    color:white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 100;
+    width:100%;
+    display:inline-block;
+    text-align: left;
+}
+
+.item-container {
+    display: flex;
+    width:100%
+}
+.item-container:hover {
+    background:#28a745;
+    color:white;
+
+}
+    .item{
+        font-size:10px;
+        color: black;
+        flex-grow:1;
+        text-align:left; 
+        word-wrap: break-word;
+        text-decoration: none;
+        font-weight: 500;  
+    }
+    .item:hover{
+        color:white;
+    }
+.source-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+  
+}
+ .item-source-icon   {
+    color: #A0A2A5;
+    font-size:0.8em;
+     text-align: center;
+     justify-content: center;
+     visibility: hidden;
+            }
+  .item-source {
+        color: black;
+        font-size:0.4em;
+        border-radius: 6px;
+        visibility: visible;
+        text-decoration: none;
+        padding-left:4px;
+        padding-right:4px;
+        padding-top:2px;
+        padding-bottom:2px;
+        background:#e6e6e6;
+          visibility: hidden;
+
+    }
+
+
+
+
+/*
+.cells{
+    margin:0px auto;
+    color:white;
+    padding:10px;
+    display:inline-flex;
+    width:100%;
+    overflow: hidden;
+    word-wrap: break-word;
+    transition: background-color 0.5s ease;
+
+}
+.cells :hover{
+    background:brown;
+    color:black;
+}
+*/
+
+source.container{
+    display: flex;
+    visibility: hidden;
+}
+     .content-icon   {
+        color: #e6e6e6;
+        font-size:0.8em;
+        text-align: right;
+
+            }
+  
+
+/***************************
+CUSTOM MENU CSS
+****************************/	
+h1 small {
+  font-size: 14px;
+}
+
+.details {
+  padding-left: 15px;
+  margin-top: 30px;
+}
+
+    /* Pauls styles */
+
+footer{
+    width:100%;
+    background:#1D807D;
+    color:white;
+    font-size:12px;
+        
+}
+
+
+  
