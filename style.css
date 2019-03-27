@@ -1,25 +1,20 @@
 /*		VERSION 10.1    */
 /*GENERAL */
 body {
-    font-family: 'Exo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-decoration:none;
     padding-top:3px;   
 }
 .subject-header          {
-    background:#A0A2A5;}
+    background:#A0A2A5;
 
-
-.pagewidth{   /*   a hack so I can limit page width - cant do it in body tag */
-      
 }
 
 header{    
-    line-height:1;
-    margin-bottom:5px;
     margin-right:3px;
     text-align: center; 
     display:flex;
-    
+    align-items: center;
 }
 
 a:hover{
@@ -27,6 +22,8 @@ a:hover{
 }
 a {
   text-decoration: none;
+  color:white;
+  text-decoration-line: underline;
 }
 
 
@@ -39,19 +36,10 @@ header{
     margin-left:5px;
     font-size: 1.2em;
     font-weight: 300; 
-    color:lavender;
+    color:black;
     text-align: left;
-    height:30px;
-    background:#1D807D;
-    padding-top:10px;
+    font-family: 'Roboto', sans-serif;
     padding-left:5px;
-    padding-bottom:0px;
-    padding-right:5px;   
-
-    border-top-left-radius: 3px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
 }
 .logo{
     width: 38px;
@@ -81,6 +69,8 @@ header{
     align-items: center;
     flex-direction: row;
     background:#e6e6e6;
+    padding-left:5px;
+    padding-right:5px;
 }
 .tool-label{
     font-size: 10px;
@@ -97,11 +87,15 @@ header{
     margin-bottom: 5px;
     
 }
+.fullscreen{
+    font-size: 5px;
+    padding-right: 20px;
+    color: #C9C9C9;
+}
 
 .btn {
     padding:3px;
     background:#28a745;;
-    border-radius: 2px;
     font-size:10px;
     border-style: none;
     text-align: center;
@@ -212,23 +206,28 @@ article{
     margin-right:7px;
     flex:1;
     flex-direction: column;
-    box-sizing:border-box
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .article-header, .subject-header, .item-container{
     padding: 5px;
+   
 }
 
 
 .article-header{
     width:100%;
-    font-size: 0.8em;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 600;
     text-align: left;
-    color:white;
-    flex:1;
+    color:#EDEDED;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lightgrey{
+    background:#C9C9C9;
 }
 .blue{
      background:#1C77C3;
@@ -240,18 +239,21 @@ article{
      background:#ED6A5E;;
 }
 .subject-header{
-    color:white;
+    color:#636363;
     text-transform: uppercase;
     font-size: 13px;
-    font-weight: 100;
+    font-weight: 1;
     width:100%;
     display:inline-block;
     text-align: left;
+    background: #C9C9C9;
 }
 
 .item-container {
-    display: flex;
-    width:100%
+    width:100%;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration:none;
+    background:#F9F9F9;
 }
 .item-container:hover {
     background:#28a745;
@@ -259,7 +261,7 @@ article{
 
 }
     .item{
-        font-size:10px;
+        font-size:13px;
         color: black;
         flex-grow:1;
         text-align:left; 
@@ -299,27 +301,6 @@ article{
 
     }
 
-
-
-
-/*
-.cells{
-    margin:0px auto;
-    color:white;
-    padding:10px;
-    display:inline-flex;
-    width:100%;
-    overflow: hidden;
-    word-wrap: break-word;
-    transition: background-color 0.5s ease;
-
-}
-.cells :hover{
-    background:brown;
-    color:black;
-}
-*/
-
 source.container{
     display: flex;
     visibility: hidden;
@@ -330,7 +311,6 @@ source.container{
         text-align: right;
 
             }
-  
 
 /***************************
 CUSTOM MENU CSS
@@ -338,19 +318,16 @@ CUSTOM MENU CSS
 h1 small {
   font-size: 14px;
 }
-
 .details {
   padding-left: 15px;
   margin-top: 30px;
 }
-
-    /* Pauls styles */
-
 footer{
     width:100%;
     background:#1D807D;
     color:white;
     font-size:12px;
+    text-align: center;
         
 }
 
