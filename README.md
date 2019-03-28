@@ -2,7 +2,7 @@
 MAIN REPO FOR INFOSHOT
 
 
-<b>FILE DESCRPTION</b> <br>
+<b>FILE DESCRIPTION</b> <br>
 /data/chang.json {Current data file}<br>
 /data/changSubject.json {Proposed new datafile}<br>
 /index.html {main html}
