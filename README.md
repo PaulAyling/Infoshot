@@ -1,11 +1,10 @@
 # Infoshot
-Main Repo for Infoshot
+MAIN REPO FOR INFOSHOT
 
 
-FILE DESCRPTION
-Path	  Filename	              Description
-/data	  chang.json	            Current data file
-/data	  changSubject.json	      Proposed new datafile
-.	      index.html	            main html
-.	      infoshot.js	            javascript file
-.	      style.css	main          stylesheet
+<b>FILE DESCRPTION</b> <br>
+/data/chang.json {Current data file}<br>
+/data/changSubject.json {Proposed new datafile}<br>
+/index.html {main html}
+/infoshot.js {javascript file}
+/style.css {main stylesheet}<br>
