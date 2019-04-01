@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <title>MY First React</title>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script src='https://unpkg.com/babel-standalone@6/babel.min.js'></script>
+</head>
+<body>
+    <div id ='app'></div>
+  <script>
+    //** Variable declared here  *//
+    const name = 'Paul'
+    const handle = '@TheDisruptiveUnfluence'
+
+    function NameComponent (props) {
+        return <h1>{props.name}</h1>
+    }
+    function HandleComponent(props) {
+        return <h3>{propse.handle}</h3>
+    }
+    
+    function App () {
+        return(
+            <div id='container'>
+                <NameComponent name={name} />
+                <HandleComponent handle={handle} />
+        )
+    }
+    
+    ReactDOM.render(
+        <App />,
+        document.getElementById('app')
+    )
+    
+    console.log('wrapperElement',wrapperElement)
+    console.log("bob")
+  </script>
+</body>
+</html>
