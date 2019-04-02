@@ -6,6 +6,10 @@ $.getJSON(
   function(data) {
 
 factData = data;
+console.log(factData);
+//ADD EXTRA OBJECT TO ARRAY //
+
+
 //query data from factdata //
 var dataToRenderForFacts = [];
 var filteredFacts = factData.filter(x => x.columnName == "Facts");
@@ -45,6 +49,7 @@ function columnName(pet){
 
 }
 
+
 function factTemplate(pet){
     
   var html = `<div class="subject-header">${pet.subjectName}</div>`;
@@ -54,7 +59,6 @@ function factTemplate(pet){
   });
   return html;
 
-  
 }
 orderData(filteredFacts, dataToRenderForFacts);
 document.getElementById("facts").innerHTML = `
