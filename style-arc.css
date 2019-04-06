@@ -2,9 +2,20 @@
 /*GENERAL */
 body {
     font-family: 'Open Sans', sans-serif;
+
 }
+
+a {
+    text-decoration: none !important;
+
+}
+
 a:hover{
     text-decoration: none !important;
+}
+
+header{
+    display:flex;
 }
 .subject-question     {
      width: 100%; 
@@ -33,7 +44,9 @@ a:hover{
    color:lightblue;
    border-width:0;
    height:20px;
+
 }
+
 .toolbar-left{
     Display:flex;
     flex-direction: row;
@@ -47,20 +60,18 @@ a:hover{
     padding-left:5px;
     padding-right:5px;
 }
-/*     share & fullscreen    ***************************/
 .toolbar-left-right{
      Display:flex;
     flex-direction: row;
     align-items: center;
 }
-/*     fullscreen wrapper    ***************************/
-        .fullscreen-wrapper{
-            margin-bottom: 5px;    
-        }
-        .fullscreen{
-            color:#1C77C3;
-            font-size: 10px;
-        }	
+.fullscreen-wrapper{
+    margin-bottom: 5px;    
+}
+.fullscreen{
+    color:#1C77C3;
+    font-size: 10px;
+}	
 .btn {
     padding:3px;
     font-size:10px;
@@ -168,7 +179,8 @@ main{
     background-color: #fff;
     padding: 0px;
     DISPLAY:FLEX;
-    align-content: flex-start; 	
+    align-content: flex-start;
+    flex-shrink: 2;
    }
 article{
     padding: 2px;
@@ -240,6 +252,36 @@ article{
     .item:hover{
         color:white;
     }
+.source-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+
+  
+}
+ .item-source-icon   {
+    color: #A0A2A5;
+    font-size:0.8em;
+     text-align: center;
+     justify-content: center;
+     visibility: hidden;
+            }
+  .item-source {
+        color: black;
+        font-size:0.4em;
+        border-radius: 6px;
+        visibility: visible;
+        text-decoration: none;
+        padding-left:4px;
+        padding-right:4px;
+        padding-top:2px;
+        padding-bottom:2px;
+        background:#e6e6e6;
+          visibility: hidden;
+
+    }
+
 footer{
     width:100%;
     background:#1D807D;
@@ -248,4 +290,3 @@ footer{
     text-align: center;
         
 }
-
