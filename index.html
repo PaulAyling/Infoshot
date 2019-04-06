@@ -38,70 +38,73 @@
     }></script>  
 </head>
 <body>
-    <header>
-        <div>
-            <a href="https://www.infoshot.io"><img class="logo" src="http://informedgroup.io/hyper/v10/images/logo.png" alt="Hypermap Logo"></a>
-        </div> 
-        <div class ="subject-question">
-                <p id="question">Infoshot Generic header</p>
-        </div>
-    </header >
- 
-       <!-- TOOLBAR  --------------------------------------------------------------->
-        <section class="toolbar">
-            <div class="navigation">
-                <div class="dataViews">
-                    <button id="minus" class="btn fas fa-minus"></button> 
-                    <button id="plus" class="btn fas fa-plus"></button>
-                </div>
-                <div class="fullscreen">
-                    <div>    
-                        <a href="http://www.infoshot.io/infoshots/1-cm/" target="_blank"><label class="btn" >
-                        <div class="fas fa-arrows-alt"></div> 
-                        </label></a>
-                    </div>
-                </div>
+<page-container> 
+        <header>
                 <div>
-                    <input  type="checkbox" id="chkShare" checked/>
-                    <label class="sharebtn btn-sm " for="chkShare">SHARE<span class="glyphicon glyphicon-share"></span>
-                    </label>
+                    <a href="https://www.infoshot.io"><img class="logo" src="http://informedgroup.io/hyper/v10/images/logo.png" alt="Hypermap Logo"></a>
+                </div> 
+                <div class ="subject-question">
+                        <p id="question">Infoshot Generic header</p>
+                </div>
+        </header >
+        <section class="toolbar">
+                <div class="navigation">
+                    
+                    <div class="dataViews">
+                        <button id="minus" class="btn fas fa-minus"></button> 
+                        <button id="plus" class="btn fas fa-plus"></button>
+                    </div>
+                    <div class="fullscreen">
+                        <div>    
+                            <a href="http://www.infoshot.io/infoshots/1-cm/" target="_blank"><label class="btn" >
+                            <div class="fas fa-arrows-alt"></div> 
+                            </label></a>
+                        </div>
+                    </div>
                     <div>
-                        <textarea class="sharebox" style="color: #777">&lt;iframe src="http://www.infoshot.io/infoshots/1-cm/" frameborder="0" scrolling="no" width="621" height="800"'&gt;&lt;/iframe&gt;</textarea>
-                    </div>
+                            <input  type="checkbox" id="chkShare" checked/>
+                            <label class="sharebtn btn-sm " for="chkShare">SHARE<span class="glyphicon glyphicon-share"></span>
+                            </label>
+                            <div>
+                                <textarea class="sharebox" style="color: #777">&lt;iframe src="http://www.infoshot.io/infoshots/1-cm/" frameborder="0" scrolling="no" width="20" height="800"'&gt;&lt;/iframe&gt;</textarea>
+                            </div>
+                        </div>
                 </div>
-            </div>
-            <div class = "avatar-bar">
 
-                    <div class="avatar popup" onclick="myFunction()" > 
-                            <span class="popuptext" id="myPopup">Under Construction!</span>
-                            <a><img src="http://informedgroup.io/hyper/v5/images/paul_headshot_linkedin_300.jpg" alt="1"></a>
+                <div class = "avatar-bar">
+                        <div class="avatar popup" onclick="myFunction()" > 
+                                <a><img src="http://informedgroup.io/hyper/v5/images/paul_headshot_linkedin_300.jpg" alt="1"></a>
+                        </div>
+                        <div class="avatar popup" onclick="myFunction()" > 
+
+                                <a> <img src="http://informedgroup.io/hyper/v5/images/sue.jpg" alt="1"></a>
+                        </div>
+                        <div class="avatar popup" onclick="myFunction()" > 
+  
+                                <a> <img src="http://informedgroup.io/hyper/v5/images/nigel.jpg" alt="1"></a>
+                        </div>
+                        <div class="avatar popup" onclick="myFunction()" > 
+                                <a> <img src="http://informedgroup.io/hyper/v5/images/mark-cheeze.jpg" alt="1"></a>
+                        </div>     
                     </div>
-                    <div class="avatar popup" onclick="myFunction()" > 
-                            <span class="popuptext" id="myPopup">Under Construction!</span>
-                            <a> <img src="http://informedgroup.io/hyper/v5/images/sue.jpg" alt="1"></a>
-                    </div>
-                    <div class="avatar popup" onclick="myFunction()" > 
-                            <span class="popuptext" id="myPopup">Under Construction!</span>
-                            <a> <img src="http://informedgroup.io/hyper/v5/images/nigel.jpg" alt="1"></a>
-                    </div>
-                    <div class="avatar popup" onclick="myFunction()" > 
-                            <span class="popuptext" id="myPopup">Under Construction!</span>
-                            <a> <img src="http://informedgroup.io/hyper/v5/images/mark-cheeze.jpg" alt="1"></a>
-                    </div>     
-                </div>
-        </section>
-<main> 
-    <article><!-- FACTS -->
-    <div id ="facts"></div>  
-      </article>
-    <article>
-          <div id ="facts2"></div>  
-          </article><article>
-          <div id ="facts3"></div>
-    </article>
-  </main>
-  <footer class="footer">Version 0.1 - 1 April 2019</footer>
-            
+            </section>
+  
+
+
+ 
+      
+    <main> 
+        <article><!-- FACTS -->
+        <div id ="facts"></div>  
+        </article>
+        <article>
+            <div id ="facts2"></div>  
+            </article><article>
+            <div id ="facts3"></div>
+        </article>
+    </main>
+    <footer class="footer">Version 0.2 - 6 April 2019</footer>
+</page-container>             
           <script>
                 // When the user clicks on div, open the popup
                 function myFunction() {
