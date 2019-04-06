@@ -17,19 +17,17 @@
     <!-- EMBED BUTTON -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script>   
-      $(document).ready(function(){
-        $(".btn1A").click(function(){
-          $(".item-container").hide();
-        });
-        $(".btn2A").click(function(){
-          $(".item-container").show();
-        });
-      });    
+            $(document).ready(function(){
+            $("#minus").click(function(){
+                $(".item-container").hide();
+            });
+            $("#plus").click(function(){
+                $(".item-container").show();
+            });
+            });    
     </script>
 </head>
-
 <body>
-    <div class="pagewidth">
     <header>
         <div>
             <a href="https://www.infoshot.io"><img class="logo" src="http://informedgroup.io/hyper/v10/images/logo.png" alt="Hypermap Logo"></a>
@@ -39,40 +37,32 @@
         </div>
     </header >
  
-       <!-- SHARE-SECTION & AVATAR  --------------------------------------------------------------->
+       <!-- TOOLBAR  --------------------------------------------------------------->
         <section class="toolbar">
-            <div class="toolbar-left">
-                 <div>
-                    <div class="tool-subjects">
-                    <button class="btn1A btn fas fa-minus"></button> 
-                    <button class="btn2A btn fas fa-plus"></button>
+            <div class="navigation">
+                <div class="dataViews">
+                    <button id="minus" class="btn fas fa-minus"></button> 
+                    <button id="plus" class="btn fas fa-plus"></button>
+                </div>
+                <div class="fullscreen">
+                    <div>    
+                        <a href="http://www.infoshot.io/infoshots/1-cm/" target="_blank"><label class="btn" >
+                        <div class="fas fa-arrows-alt"></div> 
+                        </label></a>
                     </div>
-                    
-    
-                 </div>
-                <div class="toolbar-left-right">
-                    <div class="fullscreen-wrapper">
-                        <div>    
-                             <a href="http://www.infoshot.io/infoshots/1-cm/" target="_blank"><label class="btn fullscreen" >
-                                 <div class="fas fa-arrows-alt"></div> 
-                                 <span class="glyphicon glyphicon-share"></span>
-                            </label></a>
-                        </div>
-                    </div>
-                    <div class = "section-share">
-    
-                        <input  type="checkbox" id="chkShare" checked/>
-                        <label class="sharebtn btn-sm " for="chkShare">SHARE<span class="glyphicon glyphicon-share"></span>
-                        </label>
-                        <div>
-                            <textarea class="sharebox" style="color: #777">&lt;iframe src="http://www.infoshot.io/infoshots/1-cm/" frameborder="0" scrolling="no" width="621" height="800"'&gt;&lt;/iframe&gt;</textarea>
-                        </div>
+                </div>
+                <div>
+                    <input  type="checkbox" id="chkShare" checked/>
+                    <label class="sharebtn btn-sm " for="chkShare">SHARE<span class="glyphicon glyphicon-share"></span>
+                    </label>
+                    <div>
+                        <textarea class="sharebox" style="color: #777">&lt;iframe src="http://www.infoshot.io/infoshots/1-cm/" frameborder="0" scrolling="no" width="621" height="800"'&gt;&lt;/iframe&gt;</textarea>
                     </div>
                 </div>
             </div>
-    
+            <!-- USERS CODE IN HERE -->
         </section>
-<main>
+<main> 
     <article><!-- FACTS -->
     <div id ="facts"></div>  
       </article>
@@ -85,6 +75,14 @@
   <footer class="footer">Version 0.1 - 1 April 2019</footer>
   <script  src="infoshot.js"></script>
   <script  src="data/changSubject.json"></script>   
+
+
+<div class="container">
+    <div class = "mychild">1</div>
+    <div class = "mychild">2</div>
+    <div class = "mychild">3</div>
+
+</div>
 
 </body>
 
