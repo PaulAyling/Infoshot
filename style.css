@@ -12,7 +12,9 @@ body {
 
 a {
     color:#636363;
+    text-decoration:none;
 }
+
 .article-header, .subject-header, .subject-question  {
     padding: 5px;
     font-family: 'Roboto', sans-serif;
@@ -67,23 +69,23 @@ header{
 }
 .navigation{
     Display:flex;
+    width:100%;
     flex-direction: row;
     align-items: center;
     width:100px;
+    background:lightgray;
+
 }
 .dataViews{
     display:flex;
     align-items: center;
     flex-direction: row;
-    padding-left:5px;
-    padding-right:5px;
+
 }
     .btn {
-        padding:3px;
-        font-size:10px;
+        font-size:12px;
         border-style: none;
         text-align: center;
-        margin: 2px;
         background:transparent;
         color: darkgoldenrod;
         transition: background-color .2s;
@@ -94,16 +96,15 @@ header{
         color:white;
     }
 
-.fullscreen{
-        margin-bottom: 5px;    
+.fullscreen{   
     }
 
 .sharebtn{
-    padding:3px;
     font-size:10px;
     border-style: none;
     text-align: center;
-    margin: 2px;
+    background:lightgray;
+
     transition: background-color .2s;
     color:#1C77C3;
 }
@@ -139,7 +140,7 @@ header{
         height: 0; 
         }
     #chkShare ~ div {  
-        height 5s; 
+        height: 5s; 
         height: 150; 
         }
     #chkShare:checked ~ div {
@@ -188,9 +189,8 @@ article{
         }
             .item-container {
                 width:100%;
-                text-decoration:none;
                 font-size:13px;
-                background:rgba(34, 233, 44, 0.068);
+            
                 padding:5px;
                 color:black;
                 border-top-color: rgb(133, 130, 130);
@@ -221,10 +221,15 @@ footer{
 
 .avatar-bar{
     display: flex; 
-    margin-left:10px;
+
     flex-direction: row; 
     justify-content: flex-end;
-    width: 100%; 
+    background-color:lightgray;
+    overflow: auto;
+    padding:2px;
+    margin-left:3px;
+    border-radius: 3px;
+
 }
 
 .avatar{
@@ -292,4 +297,105 @@ img{
     width:400px;
     background:gray;
     }
+
+.siteContainer {
+    display:flex; 
+    border-top-style:dotted;
+    border-width: 1px;
+    width:100%;
+    text-decoration:none;
+    font-size:13px;
+    padding:5px;
+    color:black;
+    border-top-color: rgb(133, 130, 130);
+    border-top-style:dotted;
+    border-width: 1px;
+}
+.siteContainer:hover {
+    background:#28a745;
+    color:white;
+}
+
+
+    .siteIcon{
+        align-items: center;
+    }
+
+    .siteIcon img {
+        height:10px;
+        width:10px;
+        opacity: 0.8;
+
+    }
+
+    .siteTitle{
+        width:100%;
+        text-decoration:none;
+        font-size:13px;
+        padding:5px;
+
+
+    }
+
+        .siteTitle :hover{
+            color:white;
+
+        }
+.myMenu{
+    font-size:20px;
+    color: #C9C9C9;
+    padding:5px;
+    border:transparent;
+    background: transparent;
+    border-style: none;
+    text-align: center;
+    background:transparent;
+    color: darkgoldenrod;
+    transition: background-color .2s;
+}
+
+#toolbar-popup{
+    display: none;
+    width:100%;
     
+}
+
+.toolbar2{
+    width:100%;
+   display:flex; 
+}
+
+
+
+
+body {margin:0;}
+
+.icon-bar {
+  width: 50%;
+  background-color:lightgray;
+  overflow: auto;
+  justify-content: center;
+  padding:5px;
+  margin-left:10px;
+  border-radius: 3px;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  justify-content: center;
+  padding: 1px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}

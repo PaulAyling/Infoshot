@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+ <!-- TASKS
+    1. Create multiple views of same rocket using avatars as buttons
+    2. Rework the links to show an icon right with a title name right
+
+        https://www.google.com/favicon.ico
+ -->
+<head>
+<meta charset="utf-8">
+<title>Chiang Mia</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">    
+    <!-- DIY -->
+           <link rel="stylesheet" href="stylereset.css"> 
+           <link rel="stylesheet" href="style.css">
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+    <!-- JAVASCRIPT -->
+    <!-- EMBED BUTTON -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>   
+            $(document).ready(function(){
+            $("#minus").click(function(){
+                $(".siteContainer").hide();
+            });
+            $("#plus").click(function(){
+                $(".siteContainer").show();
+            });
+            });    
+    </script>
+          <script>
+            function showToolbar() {
+              var x = document.getElementById("toolbar-popup");
+              if (x.style.display === "none") {
+                x.style.display = "flex";
+              } else {
+                x.style.display = "none";
+              }
+            }
+            </script>
+      <script
+      @-webkit-keyframes fadeIn {
+      from {opacity: 0;} 
+      to {opacity: 1;}
+    }
+    
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity:1 ;}
+    }></script>  
+</head>
+<body>
+<page-container> 
+        <header>
+                <div>
+                    <a href="https://www.infoshot.io"><img class="logo" src="http://informedgroup.io/hyper/v10/images/logo.png" alt="Hypermap Logo"></a>
+                </div> 
+                <div class ="subject-question">
+                        <p id="question">Infoshot Generic header</p>
+                </div>
+                <div class="myMenu" ><button  ID="cog" onclick="showToolbar()" class="fas fa-caret-square-down">
+                                </button>
+                    </div>
+        </header >
+
+
+
+
+        <section id="toolbar-popup">
+        
+
+            </section>
+                <div class = "avatar-bar">
+                        <div class="avatar popup" onclick="myFunction()" > 
+                                <a><img src="http://informedgroup.io/hyper/v5/images/paul_headshot_linkedin_300.jpg" alt="1"></a>
+                        </div>
+                        <div class="avatar popup" onclick="myFunction()" > 
+
+                                <a> <img src="http://informedgroup.io/hyper/v5/images/sue.jpg" alt="1"></a>
+                        </div>
+                        <div class="avatar popup" onclick="myFunction()" > 
+  
+                                <a> <img src="http://informedgroup.io/hyper/v5/images/nigel.jpg" alt="1"></a>
+                        </div>
+                        <div class="avatar popup" onclick="myFunction()" > 
+                                <a> <img src="http://informedgroup.io/hyper/v5/images/mark-cheeze.jpg" alt="1"></a>
+                        </div>     
+                    </div>
+            </section>
+
+    <main> 
+        <article><!-- FACTS -->
+        <div id ="facts"></div>  
+        </article>
+        <article>
+            <div id ="facts2"></div>  
+            </article><article>
+            <div id ="facts3"></div>
+        </article>
+    </main>
+    <footer class="footer">Version 0.2 - 6 April 2019</footer>
+       
+</page-container>             
+          <script>
+                // When the user clicks on div, open the popup
+                function myFunction() {
+                  var popup = document.getElementById("myPopup");
+                  popup.classList.toggle("show");
+                }
+                </script>
+                  <script  src="infoshot-dev.js"></script>
+                  <script  src="data/osteoMulti.json"></script> 
+</div>
+
+<section  class="navigation">
+    <div class="dataViews">
+        <button id="minus" class="btn fas fa-minus"></button> 
+        <button id="plus" class="btn fas fa-plus"></button>
+    </div>
+    <div class="fullscreen">
+        <div>    
+            <a href="http://www.infoshot.io/infoshots/1-cm/" target="_blank"><label class="btn" >
+            <div class="fas fa-arrows-alt"></div> 
+            </label></a>
+        </div>
+    </div>
+    <div>
+            <input  type="checkbox" id="chkShare" checked/>
+            <label class="sharebtn btn-sm " for="chkShare">SHARE<span class="glyphicon glyphicon-share"></span>
+            </label>
+            <div>
+                <textarea class="sharebox" style="color: #777">&lt;iframe src="http://www.infoshot.io/infoshots/1-cm/" frameborder="0" scrolling="no" width="20" height="800"'&gt;&lt;/iframe&gt;</textarea>
+            </div>
+        </div>
+    </section>
+
+
+
+            <div class="dataViews">
+                <button id="minus" class="btn fas fa-sort-amount-ups"></button> 
+            </div>
+            <div class="fullscreen">
+                <div>    
+                    <a href="http://www.infoshot.io/infoshots/1-cm/" target="_blank"><label class="btn" >
+                    <div class="fas fa-arrows-alt"></div> 
+                    </label></a>
+                </div>
+            </div>
+            <div>
+                    <input  type="checkbox" id="chkShare" checked/>
+                    <label class="sharebtn fas fa-share-alt btn-sm " for="chkShare"><span class="glyphicon glyphicon-share"></span>
+                    </label>
+                    <div>
+                        <textarea class="sharebox" style="color: #777">&lt;iframe src="http://www.infoshot.io/infoshots/1-cm/" frameborder="0" scrolling="no" width="20" height="800"'&gt;&lt;/iframe&gt;</textarea>
+                    </div>
+                </div>
+
+<section  class="toolbar2">
+    <div class="icon-bar">
+        <a class="active" href="#"><i class="fas fa-arrows-alt"></i></a> 
+        <a href="#"><i class="fas fa-sort-amount-up"></i></a> 
+        <a href="#"><i class="fas fa-share-alt"></i></a> 
+        <a href="#"><i class="fas fa-plus-circle"></i></a>
+        <a href="#"><i class="fas fa-angle-double-right"></i></a> 
+    </div>
+
+<div class = "avatar-bar">
+        <div class="avatar popup" onclick="myFunction()" > 
+                <a><img src="http://informedgroup.io/hyper/v5/images/paul_headshot_linkedin_300.jpg" alt="1"></a>
+        </div>
+        <div class="avatar popup" onclick="myFunction()" > 
+
+                <a> <img src="http://informedgroup.io/hyper/v5/images/sue.jpg" alt="1"></a>
+        </div>
+        <div class="avatar popup" onclick="myFunction()" > 
+
+                <a> <img src="http://informedgroup.io/hyper/v5/images/nigel.jpg" alt="1"></a>
+        </div>
+        <div class="avatar popup" onclick="myFunction()" > 
+                <a> <img src="http://informedgroup.io/hyper/v5/images/mark-cheeze.jpg" alt="1"></a>
+        </div>     
+    </div>
+</section>
+
+</body>
+
+</html>

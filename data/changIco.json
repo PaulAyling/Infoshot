@@ -1,0 +1,200 @@
+[
+  {
+    "columnId": 1,
+    "columnName": "Facts",
+    "subjectId": 1,
+    "subjectName": "General Resources",
+    "linkName": "Overview of Chiang Mia",
+    "linkUrl": "https://en.wikipedia.org/wiki/Chiang_Mai",
+    "ico1": 25,
+    "ico2": "https://en.wikipedia.org",
+    "linkIcon": "https://en.wikipedia.org/favicon.ico"
+  },
+  {
+    "columnId": 1,
+    "columnName": "Facts",
+    "subjectId": 1,
+    "subjectName": "General Resources",
+    "linkName": "Digital Nomad Resources Chiang Mia",
+    "linkUrl": "https://chiangmaibuddy.com/welcome-to-chiang-mai/",
+    "ico1": 27,
+    "ico2": "https://chiangmaibuddy.com",
+    "linkIcon": "https://chiangmaibuddy.com/favicon.ico"
+  },
+  {
+    "columnId": 1,
+    "columnName": "Facts",
+    "subjectId": 2,
+    "subjectName": "The City",
+    "linkName": "25 Things to Do",
+    "linkUrl": "https://www.thecrazytourist.com/top-25-things-to-do-in-chiang-mai/",
+    "ico1": 32,
+    "ico2": "https://www.thecrazytourist.com",
+    "linkIcon": "https://www.thecrazytourist.com/favicon.ico"
+  },
+  {
+    "columnId": 1,
+    "columnName": "Facts",
+    "subjectId": 2,
+    "subjectName": "The City",
+    "linkName": "Map of Chiang Mia",
+    "linkUrl": "https://www.google.co.th/maps/@18.7692139,98.8428978,11.24z?hl=en&shorturl=1",
+    "ico1": 25,
+    "ico2": "https://www.google.co.th",
+    "linkIcon": "https://www.google.co.th/favicon.ico"
+  },
+  {
+    "columnId": 1,
+    "columnName": "Facts",
+    "subjectId": 3,
+    "subjectName": "Working In Chiang Mia",
+    "linkName": "The best coworking Spaces",
+    "linkUrl": "https://toomanyadapters.com/best-co-working-spots-chiang-mai/",
+    "ico1": 28,
+    "ico2": "https://toomanyadapters.com",
+    "linkIcon": "https://toomanyadapters.com/favicon.ico"
+  },
+  {
+    "columnId": 1,
+    "columnName": "Facts",
+    "subjectId": 3,
+    "subjectName": "Working In Chiang Mia",
+    "linkName": "Other coworking list",
+    "linkUrl": "https://www.madmonkeyhostels.com/h2o_blog/best-coworking-spaces-in-chiang-mai/",
+    "ico1": 33,
+    "ico2": "https://www.madmonkeyhostels.com",
+    "linkIcon": "https://www.madmonkeyhostels.com/favicon.ico"
+  },
+  {
+    "columnId": 1,
+    "columnName": "Facts",
+    "subjectId": 4,
+    "subjectName": "Coworking Space List",
+    "linkName": "Punspace",
+    "linkUrl": "http://www.punspace.com/",
+    "ico1": 24,
+    "ico2": "http://www.punspace.com",
+    "linkIcon": "http://www.punspace.com/favicon.ico"
+  },
+  {
+    "columnId": 1,
+    "columnName": "Facts",
+    "subjectId": 4,
+    "subjectName": "Coworking Space List",
+    "linkName": "Planterspace",
+    "linkUrl": "https://planterspace.com/",
+    "ico1": 25,
+    "ico2": "https://planterspace.com",
+    "linkIcon": "https://planterspace.com/favicon.ico"
+  },
+  {
+    "columnId": 2,
+    "columnName": "For",
+    "subjectId": 1,
+    "subjectName": "LOW COST OF LIVING",
+    "linkName": "Live under $600 pcm",
+    "linkUrl": "https://alittleadrift.com/living-costs-chiang-mai-thailand/",
+    "ico1": 26,
+    "ico2": "https://alittleadrift.com",
+    "linkIcon": "https://alittleadrift.com/favicon.ico"
+  },
+  {
+    "columnId": 2,
+    "columnName": "For",
+    "subjectId": 1,
+    "subjectName": "LOW COST OF LIVING",
+    "linkName": "Chiang Mia Cost of living",
+    "linkUrl": "https://www.youtube.com/watch?v=FHergmY4A8o",
+    "ico1": 24,
+    "ico2": "https://www.youtube.com",
+    "linkIcon": "https://www.youtube.com/favicon.ico"
+  },
+  {
+    "columnId": 2,
+    "columnName": "For",
+    "subjectId": 2,
+    "subjectName": "Network",
+    "linkName": "Meetups",
+    "linkUrl": "https://www.meetup.com/cities/th/chiang_mai/",
+    "ico1": 23,
+    "ico2": "https://www.meetup.com",
+    "linkIcon": "https://www.meetup.com/favicon.ico"
+  },
+  {
+    "columnId": 2,
+    "columnName": "For",
+    "subjectId": 2,
+    "subjectName": "Network",
+    "linkName": "Expos",
+    "linkUrl": "http://www.cmecc-mice.com/",
+    "ico1": 26,
+    "ico2": "http://www.cmecc-mice.com",
+    "linkIcon": "http://www.cmecc-mice.com/favicon.ico"
+  },
+  {
+    "columnId": 3,
+    "columnName": "Against",
+    "subjectId": 1,
+    "subjectName": "Air quality",
+    "linkName": "Pollution in Thailand",
+    "linkUrl": "https://en.wikipedia.org/wiki/Environmental_issues_in_Thailand",
+    "ico1": 25,
+    "ico2": "https://en.wikipedia.org",
+    "linkIcon": "https://en.wikipedia.org/favicon.ico"
+  },
+  {
+    "columnId": 3,
+    "columnName": "Against",
+    "subjectId": 1,
+    "subjectName": "Air quality",
+    "linkName": "World Air Quality Index",
+    "linkUrl": "https://aqicn.org/city/chiang-mai/",
+    "ico1": 18,
+    "ico2": "https://aqicn.org",
+    "linkIcon": "https://aqicn.org/favicon.ico"
+  },
+  {
+    "columnId": 3,
+    "columnName": "Against",
+    "subjectId": 1,
+    "subjectName": "Air quality",
+    "linkName": "#6 Worst Air quality Globally",
+    "linkUrl": "http://www.nationmultimedia.com/detail/breakingnews/30341186",
+    "ico1": 32,
+    "ico2": "http://www.nationmultimedia.com",
+    "linkIcon": "http://www.nationmultimedia.com/favicon.ico"
+  },
+  {
+    "columnId": 3,
+    "columnName": "Against",
+    "subjectId": 2,
+    "subjectName": "Time Zones",
+    "linkName": "Changing Time Zones",
+    "linkUrl": "https://www.nytimes.com/2001/07/28/business/international-business-thailand-s-leader-wants-to-switch-time-zon",
+    "ico1": 24,
+    "ico2": "https://www.nytimes.com",
+    "linkIcon": "https://www.nytimes.com/favicon.ico"
+  },
+  {
+    "columnId": 3,
+    "columnName": "Against",
+    "subjectId": 2,
+    "subjectName": "Time Zones",
+    "linkName": "International meeting planner",
+    "linkUrl": "https://www.timeanddate.com/worldclock/meetingtime.html?iso=20190325&p1=28&p2=179",
+    "ico1": 28,
+    "ico2": "https://www.timeanddate.com",
+    "linkIcon": "https://www.timeanddate.com/favicon.ico"
+  },
+  {
+    "columnId": 100,
+    "columnName": "Question",
+    "subjectId": 1,
+    "subjectName": "Header",
+    "linkName": "Should I live in Chiang Mia?",
+    "linkUrl": "www.infoshot.io",
+    "ico1": "",
+    "ico2": "",
+    "linkIcon": ""
+  }
+]
