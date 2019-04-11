@@ -8,52 +8,26 @@
  -->
 <head>
 <meta charset="utf-8">
-<title>Chiang Mia</title>
+<title>Infoshot - Osteo Questions</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">    
     <!-- DIY -->
            <link rel="stylesheet" href="stylereset.css"> 
            <link rel="stylesheet" href="style.css">
+           <link rel="stylesheet" href="buttons.css">
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
     <!-- JAVASCRIPT -->
-    <!-- EMBED BUTTONS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>   
-        $(document).ready(function(){
-        $("#minus").click(function(){
-            $(".siteContainer").hide();
-        });
-        $("#plus").click(function(){
-            $(".siteContainer").show();
-        });
-        });    
-</script>
-<script>   
-        $(document).ready(function(){
-        $("#embed").click(function(){
-            $(".embedcode").show();
-        });
-        });    
-</script>
-        <script>
-        function showToolbar() {
-            var x = document.getElementById("toolbar-popup");
-            if (x.style.display === "none") {
-            x.style.display = "flex";
-            } else {
-            x.style.display = "none";
-            }
-        }
-    </script>
-           
-     
+    <!-- EMBED BUTTONS -->
+    <script  src="buttons.js"></script>
+
 </head>
 <body>
-<page-container> 
+
         <header>
                 <div>
                     <a href="https://www.infoshot.io"><img class="logo" src="http://informedgroup.io/hyper/v10/images/logo.png" alt="Hypermap Logo"></a>
@@ -61,43 +35,74 @@
                 <div class ="subject-question">
                         <p id="question">Infoshot Generic header</p>
                 </div>
-                <label class="switch">
-                        <input type="checkbox"  ID="cog" onclick="showToolbar()" >
+                <div>
+                    <span></span>
+                    <label class="switch">
+                    <input type="checkbox"  onclick="showActionBar()" class="fas fa-cog" checked></i>
                         <span class="slider round"></span>
-                      </label>
-                    </div>
+                    </label>  
+                </div>
+                
         </header >
-        <section  class="toolbar" id="toolbar-popup">
-            <div class="icon-bar">
-                <a href="http://www.infoshot.io/infoshots/1-cm/"><i class="fas fa-arrows-alt"></i></a>
-                <i id="plus" class="fas fa-plus-circle"></i>
-                <i id="minus" class="fas fa-minus-circle"></i>
-                <i id="embed" class="fas fa-share-alt"></i>
-                <a href="#"><i class="fas fa-angle-double-right"></i></a> 
+        <section class="toolbar">
+            <div class="settings">   
+                    <div  class="tool">
+                            <div>ICONS</div>
+                            <label class="switch">
+                                <input type="checkbox" onclick="showIcons()" checked>
+                                <span class="slider round"></span>
+                            </label>  
+                    </div>
+                    <div  class="tool">
+                            <div>USERS</div>
+                            <label class="switch">
+                                <input type="checkbox" onclick="showUserBar()" checked>
+                                <span class="slider round"></span>
+                            </label>  
+                    </div>
+                    <div  class="tool">
+                            <div>DETAILS</div>
+                            <label class="switch">
+                                <input type="checkbox" onclick="showsiteContainer()" checked >
+                                <span class="slider round"></span>
+                            </label>  
+                        </div>
+                    <div  class="tool">
+                            <div>EMBED</div>
+                            <label class="switch">
+                                <input type="checkbox" onclick="showsShareBox()" >
+                                <span class="slider round"></span>
+                            </label>  
+                    </div>
+                   
+                            <div class="tool"><button> <a href="http://www.infoshot.io/infoshots/3-cm/"><i class="fas fa-arrows-alt"></i></a></button></div>
+                        <div><button><a href="#"><i class="fas fa-angle-double-right"></i></a></button> </div>
+
+                </div>
             </div>
-        
-            <div class = "avatar-bar">
-                <div class="avatar popup" onclick="myFunction()" > 
-                        <a><img src="http://informedgroup.io/hyper/v5/images/paul_headshot_linkedin_300.jpg" alt="1"></a>
+            <div class = "userBar">
+                    <div class="avatar popup" onclick="myFunction()" > 
+                            <a><img src="http://informedgroup.io/hyper/v5/images/paul_headshot_linkedin_300.jpg" alt="1"></a>
+                    </div>
+                    <div class="avatar popup" onclick="myFunction()" > 
+            
+                            <a> <img src="http://informedgroup.io/hyper/v5/images/sue.jpg" alt="1"></a>
+                    </div>
+                    <div class="avatar popup" onclick="myFunction()" > 
+            
+                            <a> <img src="http://informedgroup.io/hyper/v5/images/nigel.jpg" alt="1"></a>
+                    </div>
+                    <div class="avatar popup" onclick="myFunction()" > 
+                            <a> <img src="http://informedgroup.io/hyper/v5/images/mark-cheeze.jpg" alt="1"></a>
+                    </div>     
                 </div>
-                <div class="avatar popup" onclick="myFunction()" > 
-        
-                        <a> <img src="http://informedgroup.io/hyper/v5/images/sue.jpg" alt="1"></a>
-                </div>
-                <div class="avatar popup" onclick="myFunction()" > 
-        
-                        <a> <img src="http://informedgroup.io/hyper/v5/images/nigel.jpg" alt="1"></a>
-                </div>
-                <div class="avatar popup" onclick="myFunction()" > 
-                        <a> <img src="http://informedgroup.io/hyper/v5/images/mark-cheeze.jpg" alt="1"></a>
-                </div>     
-            </div>
-        </section>
-<section class="embedcode">
+            </section>
+                        
+<section class="embed">
         <textarea class="sharebox" style="color: #777">&lt;iframe src="http://www.infoshot.io/infoshots/1-cm/" frameborder="0" scrolling="no" width="20" height="800"'&gt;&lt;/iframe&gt;</textarea>
 </section>
     <main> 
-        <article><!-- FACTS -->
+        <article>
         <div id ="facts"></div>  
         </article>
         <article>
@@ -107,28 +112,11 @@
         </article>
     </main>
     <footer class="footer">Version 0.3 - 10 April 2019</footer>
-
-
-
-</page-container>             
-          <script>
-                // Menu Toggle
-                function myFunction() {
-                  var popup = document.getElementById("myPopup");
-                  popup.classList.toggle("show");
-                }
-                </script>
-                <script>
-                    // Detail Toggle
-                    function myFunction() {
-                        var popup = document.getElementById("myPopup");
-                        popup.classList.toggle("show");
-                    }
-                </script>
-                  <script  src="infoshot-dev.js"></script>
+          
+<!-- END LOADING SCRIPTS -->
+                  <script  src="App.js"></script>
+                  <script  src="buttons.js"></script>
                   <script  src="data/osteoMulti.json"></script> 
-
-
 
 </body>
 

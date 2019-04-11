@@ -1,22 +1,10 @@
-
 //get data from JSON //
-
 $.getJSON(
   "data/osteoMulti.json",
   function(data) {
 
 factData = data;
 console.log(factData);
-//ADD EXTRA OBJECT TO ARRAY //
-
-// CREATE ICON URL
-// using the google index 
-// https://www.google.com/s2/favicons?domain=meetup.com
-//
-
-
-
-
 //query data from factdata //
 var dataToRenderForFacts = [];
 var filteredFacts = factData.filter(x => x.columnName == "Facts");
@@ -29,9 +17,6 @@ console.log("Array: filteredFors ")
 console.log(filteredFors)
 console.log("Array: filteredAgainst")
 console.log(filteredAgainst)
-
-
-
 
 //OUTPUT INFOSHOT TITE TO HTML //
 $('#question').html(question[0].linkName);
@@ -75,7 +60,7 @@ function factTemplate(pet){
     html += `
       <a href="${element.linkUrl}" target="_blank">
         <Div class="siteContainer">
-          <div id="siteIconId"><img src="${element.linkIcon}" alt="1">
+          <div class="siteIcon"><img src="${element.linkIcon}" alt="1">
           </div>      
           <div class="siteTitle">${element.linkName} </div>
         </div>
@@ -118,3 +103,4 @@ ${dataToRenderForAgainst.map(factTemplate).join("")}
 
 }
 );
+
