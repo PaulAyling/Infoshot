@@ -54,7 +54,7 @@ function factTemplate(pet){
     
   var html = `<div class="subject-header">${pet.subjectName}</div>`;
   pet.children.forEach(element => {
-    html += `<a href="${element.linkUrl}" target="_blank" class ="item"><div id="siteContainer" class="item-container">${element.linkName} </div></a>`
+    html += `<a id="linkIcon" href="${element.linkUrl}" target="_blank" class ="item"><div id="siteContainer" class="item-container">${element.linkName} </div></a>`
 
   });
   return html;

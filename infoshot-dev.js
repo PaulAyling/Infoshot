@@ -74,8 +74,8 @@ function factTemplate(pet){
   pet.children.forEach(element => {
     html += `
       <a href="${element.linkUrl}" target="_blank">
-        <Div class = "siteContainer">
-          <div class="siteIcon"><img src="${element.linkIcon}" alt="1">
+        <Div class="siteContainer">
+          <div id="siteIconId"><img src="${element.linkIcon}" alt="1">
           </div>      
           <div class="siteTitle">${element.linkName} </div>
         </div>

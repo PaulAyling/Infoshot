@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+ <!-- TEMPLATE
+ -->
+<head>
+<meta charset="utf-8">
+<title>DEMO TEMPLATE</title>
+<script>
+$('#categoryid').change(function () {
+    if (this.value === 'Foo') {
+        $('.foo').removeClass('invisible');
+        $('#Bar').addClass('invisible');
+    } else if (this.value === 'Bar') {
+        $('#Bar').removeClass('invisible');
+        $('.foo').addClass('invisible');
+    }
+}).trigger("change"); // for demo purpose
+
+</script>
+
+<style>
+.invisible {
+    display:none;
+}
+
+div { /*for demo purpose*/
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    color:#fff;
+    background:dodgerblue;
+}
+</style>
+<BODY>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <select id="categoryid">
+            <option value="Foo">Foo</option>
+            <option value="Bar">Bar</option>
+        </select>
+        <div id="Foo" class="foo">Foo!</div>
+        <div id="Bar">Bar!</div>
+        <button id="addFoo" class="foo">add Foo!</button>
+        <button id="removeFoo" class="foo">remove Foo!</button>
+</BODY>
+
