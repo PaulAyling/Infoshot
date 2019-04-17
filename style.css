@@ -26,6 +26,10 @@ a {
 .red{
      background:#ED6A5E;;
 }
+.page-container{
+    width:100%;
+}
+
                 /*END GLOBAL */
 header{
     display:flex;
@@ -74,6 +78,10 @@ button  a :hover{
     justify-content:space-between;
     padding:3px;
 }
+.tool > div > i{
+    font-size:12px;
+}
+
     .icon-bar {
    padding:3px
     }
@@ -103,10 +111,10 @@ button  a :hover{
 }
 
 .sharebox{
-    width:100%;
-    height:60px;
+    width:97%;
+    height:40px;
     margin-left:5px;
-    font-size:0.7em;
+    font-size:0.8em;
     background: #EAEFEE;
     
     }
@@ -120,6 +128,7 @@ main{
     background-color: #fff;
     padding: 0px;
     DISPLAY:FLEX;
+    flex-direction: row;
     align-content: flex-start;
     flex-shrink: 2;
    }
@@ -128,9 +137,10 @@ article{
     margin-right:7px;
     flex:1;
     min-width: 2px;
-    flex-direction: column;
-    box-sizing:border-box;
+    flex-direction: row;
+
 }
+
 
     .article-header{
         width:100%;
@@ -155,9 +165,7 @@ article{
             
                 padding:5px;
                 color:black;
-                border-top-color: rgb(133, 130, 130);
-                border-top-style:dotted;
-                border-width: 1px;
+
             }
                 .item-container:hover {
                     background:#28a745;
@@ -253,11 +261,9 @@ img{
     width:100%;
     color:black;
     text-decoration:none;
-    font-size:13px;
+    font-size:12px;
     padding:5px;
-    border-top-color: rgb(133, 130, 130);
-    border-top-style:dotted;
-    border-width: 1px;
+
 }
 .siteContainer:hover {
     background:#28a745;
@@ -327,7 +333,7 @@ img{
 
   /* MEDIA QUERIES */
 
-  @media(min-width: 600px){
+  @media(min-width: 500px){
     .subject-question  {
         font-size: 1.2em;   
     }
@@ -340,27 +346,7 @@ img{
     }
 }
 
-  @media(min-width: 300px){
-    .subject-question  {
-        font-size: 1.2em;   
-        }
-    .siteTitle {
-        font-size:14px;
-        line-height: 20px
-        }
-    .siteContainer {
-        display:flex;
-        width:100%;
-        color:black;
-        text-decoration:none;
-        font-size:8px;
-        padding:1px;
-        }
-    .siteIcon{
-        display:none;
-    }
-    }
-
+  
 
 
 

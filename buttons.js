@@ -68,6 +68,8 @@ if (el.style.display === "block") {
 });
 }
 
+
+
 function setDisplay(className, displayValue) {
 var items = document.getElementsByClassName(className);
 for (var i=0; i < items.length; i++) {
@@ -101,6 +103,22 @@ function showIcons() {
     }
     });
 }
+
+
+function showResponsive () {
+    var elements = document.getElementsByClassName("main");
+    Array.prototype.forEach.call(elements, function(el) {
+      if (el.style.flexDirection === "column") {
+          el.style.flexDirection = "row";
+      } else {
+          el.style.flexDirection = "column";
+      }
+    });
+}
+
+
+
+
 
 function setDisplay(className, displayValue) {
     var items = document.getElementsByClassName(className);
