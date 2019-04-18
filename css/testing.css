@@ -13,3 +13,17 @@
     width: 200px;
     height: 200px;
 }
+
+.test-border{
+
+    width: 200px;
+    height: 200px;
+    border-top-width:0px;
+    border-left-width:0px;
+    border-right-width:0px;
+
+    border-bottom-width:1px;
+    border-bottom-style: solid;
+    border-bottom:lightgray;
+    
+}
