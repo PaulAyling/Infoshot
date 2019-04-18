@@ -270,19 +270,20 @@ img{
     color:white;
 }
 
-.siteIcon{
-   
-}
-    .siteIcon{
+
+.siteContainer > div > .siteIcon{
         align-items: center;
+        display:none;
+        background:#28a745;
     }
 
-    .siteIcon  img {
-        height:15px;
-        width:15px;
-        opacity: 0.8;
+     
+.siteIcon  img {
+    height:15px;
+    width:15px;
+    opacity: 0.8;
 
-    }
+} 
 
     .siteTitle{
         width:100%;
@@ -340,9 +341,6 @@ img{
     .siteTitle {
         font-size:15px;
         line-height: 20px
-    }
-    .siteIcon{
-        display:flex;
     }
 }
 
