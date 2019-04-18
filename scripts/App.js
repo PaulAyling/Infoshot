@@ -1,16 +1,16 @@
 //get data from JSON //
 $.getJSON(
-  "data/osteoMulti.json",
+  "/data/pelvicFloor.json",
   function(data) {
 
 factData = data;
 console.log(factData);
 //query data from factdata //
 var dataToRenderForFacts = [];
-var filteredFacts = factData.filter(x => x.columnName == "Facts");
-var filteredFors = factData.filter(x => x.columnName == "For");
-var filteredAgainst = factData.filter(x => x.columnName == "Against");
-var question = factData.filter(x => x.columnName == "Question");
+var filteredFacts = factData.filter(x => x.columnId == "1");
+var filteredFors = factData.filter(x => x.columnId == "2");
+var filteredAgainst = factData.filter(x => x.columnId == "3");
+var question = factData.filter(x => x.columnId == "100");
 console.log("Array: filteredFacts ")
 console.log(filteredFacts)
 console.log("Array: filteredFors ")
@@ -72,7 +72,7 @@ function factTemplate(pet){
 }
 
 orderData(filteredFacts, dataToRenderForFacts);
-document.getElementById("facts").innerHTML = `
+document.getElementById("col1").innerHTML = `
 <div class="blue article-header">${dataToRenderForFacts[0].columnName}</div>
 
 ${dataToRenderForFacts.map(factTemplate).join("")}
@@ -82,7 +82,7 @@ ${dataToRenderForFacts.map(factTemplate).join("")}
 `;
 var dataToRenderForFors = [];
 orderData(filteredFors, dataToRenderForFors);
-document.getElementById("facts2").innerHTML = `
+document.getElementById("col2").innerHTML = `
 <div class="green article-header">${dataToRenderForFors[0].columnName}</div>
 
 ${dataToRenderForFors.map(factTemplate).join("")}
@@ -92,7 +92,7 @@ ${dataToRenderForFors.map(factTemplate).join("")}
 `;
 var dataToRenderForAgainst = [];
 orderData(filteredAgainst, dataToRenderForAgainst);
-document.getElementById("facts3").innerHTML = `
+document.getElementById("col3").innerHTML = `
 <div class="red article-header">${dataToRenderForAgainst[0].columnName}</div>
 
 ${dataToRenderForAgainst.map(factTemplate).join("")}
