@@ -25,10 +25,10 @@ function setDisplay(className, displayValue) {
 function showIcons() {
   var elements = document.getElementsByClassName("siteIcon");
   Array.prototype.forEach.call(elements, function(el) {
-    if (el.style.display === "none") {
-      el.style.display = "flex";
-    } else {
+    if (el.style.display === "flex") {
       el.style.display = "none";
+    } else {
+      el.style.display = "flex";
     }
   });
 }
@@ -87,22 +87,6 @@ if (el.style.display === "none") {
 });
 }
 
-function setDisplay(className, displayValue) {
-    var items = document.getElementsByClassName(className);
-    for (var i=0; i < items.length; i++) {
-    items[i].style.display = displayValue;
-    }
-}
-function showIcons() {
-    var elements = document.getElementsByClassName("siteIcon");
-    Array.prototype.forEach.call(elements, function(el) {
-    if (el.style.display === "none") {
-        el.style.display = "flex";
-    } else {
-        el.style.display = "none";
-    }
-    });
-}
 
 
 function showResponsive () {

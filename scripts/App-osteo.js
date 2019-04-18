@@ -1,6 +1,6 @@
 //get data from JSON //
 $.getJSON(
-  "/data/osteoMulti.json",
+  "./data/osteoMulti.json",
   function(data) {
 
 factData = data;

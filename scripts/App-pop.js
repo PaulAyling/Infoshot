@@ -1,6 +1,6 @@
 //get data from JSON //
 $.getJSON(
-  "/data/pelvicFloor.json",
+  "./data/pelvicFloor.json",
   function(data) {
 
 factData = data;

@@ -1,6 +1,6 @@
 //get data from JSON //
 $.getJSON(
-  "/data/changSubject.json",
+  "./data/changSubject.json",
   function(data) {
 
 factData = data;

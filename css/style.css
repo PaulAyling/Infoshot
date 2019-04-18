@@ -271,10 +271,9 @@ img{
 }
 
 
-.siteContainer > div > .siteIcon{
+div.siteIcon{
         align-items: center;
         display:none;
-        background:#28a745;
     }
 
      
