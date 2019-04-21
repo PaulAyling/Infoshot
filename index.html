@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">    
     <!-- DIY -->
            <link rel="stylesheet" type="text/css"  href="css/stylereset.css"> 
-           <link rel="stylesheet" type="text/css"  href="css/style.css">
            <link rel="stylesheet" type="text/css"  href="css/buttons.css">
            <link rel="stylesheet" type="text/css"  href="css/testing.css">
- 
+           <link rel="stylesheet" type="text/css"  href="css/style.css">
+
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -41,7 +41,8 @@
                 
         </header >
         <section class="toolbar">
-            <div class="settings">   
+            <div class="settings"> 
+                <div class="micro-nav">
                     <div  class="tool">
                             <div><i class="fab fa-sourcetree"></i></div>
                             <label class="switch">
@@ -70,36 +71,49 @@
                                 <span class="slider round"></span>
                             </label>  
                     </div>
-                    <div  class="tool">
-                        <div><i class="fas fa-share-alt-square"></i></div>
-                        <label class="switch">
-                            <input type="checkbox" onclick="showsShareBox()"  >
-                            <span class="slider round"></span>
-                        </label>  
-                    </div>
-                   
-                            <div class="tool"><button> <a href="./" target="blank"><i class="fas fa-arrows-alt"></i></a></button></div>
-                        <div><button><a href="#"><i class="fas fa-angle-double-right"></i></a></button> </div>
+                </div>
 
+
+                <div class="macro-nav">
+                    <div class="right-tools ">
+                        <button onclick="showsShareBox()">
+                            <i class="fas fa-share-alt-square"></i>
+                        </button>
+                    </div>
+                    <div class="right-tools ">
+                        <button>
+                            <a href="./" target="blank">
+                                <i class="fas fa-arrows-alt"></i>
+                            </a>
+                        </button>
+                    </div>
+                    <div class="right-tools ">
+                        <button>
+                            <a href="./" target="blank"><i class="fas fa-angle-double-right"></i>
+                            </a></button> 
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class = "userBar">
-                    <div class="avatar popup" onclick="myFunction()" > 
-                            <a><img src="http://informedgroup.io/hyper/v5/images/paul_headshot_linkedin_300.jpg" alt="1"></a>
-                    </div>
-                    <div class="avatar popup" onclick="myFunction()" > 
-            
-                            <a> <img src="http://informedgroup.io/hyper/v5/images/sue.jpg" alt="1"></a>
-                    </div>
-                    <div class="avatar popup" onclick="myFunction()" > 
-            
-                            <a> <img src="http://informedgroup.io/hyper/v5/images/nigel.jpg" alt="1"></a>
-                    </div>
-                    <div class="avatar popup" onclick="myFunction()" > 
-                            <a> <img src="http://informedgroup.io/hyper/v5/images/mark-cheeze.jpg" alt="1"></a>
-                    </div>     
+
+
+            <div class="avatar-bar">
+                <div class="avatar " onclick="myFunction()" > 
+                        <a><img src="http://informedgroup.io/hyper/v5/images/paul_headshot_linkedin_300.jpg" alt="1"></a>
                 </div>
-            </section>
+                <div class="avatar " onclick="myFunction()" > 
+        
+                        <a> <img src="http://informedgroup.io/hyper/v5/images/sue.jpg" alt="1"></a>
+                </div>
+                <div class="avatar " onclick="myFunction()" > 
+        
+                        <a> <img src="http://informedgroup.io/hyper/v5/images/nigel.jpg" alt="1"></a>
+                </div>
+                <div class="avatar " onclick="myFunction()" > 
+                        <a> <img src="http://informedgroup.io/hyper/v5/images/mark-cheeze.jpg" alt="1"></a>
+                </div>     
+            </div>
+        </section>
                         
 <section class="embed">
         <textarea class="sharebox" style="color: #777">&lt;iframe src="http://www.infoshot.io/infoshots/3-cm/" frameborder="0" scrolling="no" width=100% height=100%'&gt;&lt;/iframe&gt;</textarea>
@@ -119,9 +133,11 @@
 
 
     </main>
-    <footer class="footer">Version 0.31 - 10 April 2019</footer>
+    <footer class="footer">Version 0.4 - 10 April 2019</footer>
 </page-container>
-<div class="border">border test</div>
+
+
+
 
 <!-- END LOADING SCRIPTS -->
                   <script  src="scripts/App.js"></script>
