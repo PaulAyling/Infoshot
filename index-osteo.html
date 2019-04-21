@@ -7,7 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">    
     <!-- DIY -->
            <link rel="stylesheet" href="css/stylereset.css"> 
-           <link rel="stylesheet" href="css/style.css">
+    
+           <link rel="stylesheet" href="css/styles.css">
            <link rel="stylesheet" href="css/buttons.css">
 
     <!-- FONTS -->
@@ -25,13 +26,12 @@
 
         <header>
                 <div>
-                    <a href="https://www.infoshot.io"><img class="logo" src="http://informedgroup.io/hyper/v10/images/logo.png" alt="Hypermap Logo"></a>
+                    <a href="https://www.infoshot.io"><img class="logo" src="images/infoshot-logo.png" alt="Hypermap Logo"></a>
                 </div> 
                 <div class ="subject-question">
                         <p id="question">Infoshot Generic header</p>
                 </div>
                 <div>
-                    <span></span>
                     <label class="switch">
                     <input type="checkbox"  onclick="showActionBar()" class="fas fa-cog" checked></i>
                         <span class="slider round"></span>
@@ -39,66 +39,69 @@
                 </div>
                 
         </header >
-        <section class="toolbar">
-            <div class="settings">   
-                    <div  class="tool">
+        <section class="all-tools">
+
+            <div class="settings"> 
+                <div class="micro-nav">
+                    <div  class="switch-container">
                             <div><i class="fab fa-sourcetree"></i></div>
                             <label class="switch">
-                                <input type="checkbox" onclick="showIcons()" checked>
+                                <input type="checkbox" onclick="showIcons()" >
                                 <span class="slider round"></span>
                             </label>  
                     </div>
-                    <div  class="tool">
+                    <div  class="switch-container">
                             <div><i class="fas fa-users"></i></div>
                             <label class="switch">
                                 <input type="checkbox" onclick="showUserBar()" checked>
                                 <span class="slider round"></span>
                             </label>  
                     </div>
-                    <div  class="tool">
+                    <div  class="switch-container">
                             <div><i class="fas fa-sitemap"></i></div>
                             <label class="switch">
                                 <input type="checkbox" onclick="showsiteContainer()" checked >
                                 <span class="slider round"></span>
                             </label>  
                         </div>
-                    <div  class="tool">
+                    <div  class="switch-container">
                         <div><i class="fas fa-mobile-alt"></i></div>
                             <label class="switch">
                                 <input type="checkbox" onclick="showResponsive()" >
                                 <span class="slider round"></span>
                             </label>  
                     </div>
-                    <div  class="tool">
-                        <div><i class="fas fa-share-alt-square"></i></div>
-                        <label class="switch">
-                            <input type="checkbox" onclick="showsShareBox()"  >
-                            <span class="slider round"></span>
-                        </label>  
-                    </div>
-                   
-                            <div class="tool"><button> <a href="./" target="blank"><i class="fas fa-arrows-alt"></i></a></button></div>
-                        <div><button><a href="#"><i class="fas fa-angle-double-right"></i></a></button> </div>
+                </div>
 
+
+                <div class="macro-nav">
+                    <div>
+                        <button onclick="showsShareBox()">
+                            <i class="fas fa-share-alt-square"></i>
+                        </button>
+                    </div>
+                    <div>
+                        <button>
+                            <a href="./" target="blank">
+                                <i class="fas fa-arrows-alt"></i>
+                            </a>
+                        </button>
+                    </div>
+                    <div>
+                        <button>
+                            <a href="./" target="blank"><i class="fas fa-angle-double-right"></i>
+                            </a></button> 
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class = "userBar">
-                    <div class="avatar popup" onclick="myFunction()" > 
-                            <a><img src="http://informedgroup.io/hyper/v5/images/paul_headshot_linkedin_300.jpg" alt="1"></a>
-                    </div>
-                    <div class="avatar popup" onclick="myFunction()" > 
-            
-                            <a> <img src="http://informedgroup.io/hyper/v5/images/sue.jpg" alt="1"></a>
-                    </div>
-                    <div class="avatar popup" onclick="myFunction()" > 
-            
-                            <a> <img src="http://informedgroup.io/hyper/v5/images/nigel.jpg" alt="1"></a>
-                    </div>
-                    <div class="avatar popup" onclick="myFunction()" > 
-                            <a> <img src="http://informedgroup.io/hyper/v5/images/mark-cheeze.jpg" alt="1"></a>
-                    </div>     
-                </div>
+   
+
+            <div class = "userBar"></div> 
+            <div id="imgDetail"></div>
             </section>
+
+
                         
 <section class="embed">
         <textarea class="sharebox" style="color: #777">&lt;iframe src="http://www.infoshot.io/infoshots/3-cm/" frameborder="0" scrolling="no" width=100% height=100%'&gt;&lt;/iframe&gt;</textarea>
@@ -114,7 +117,7 @@
             <div id ="col3"></div>
         </article>
     </main>
-    <footer class="footer">Version 0.31 - 10 April 2019</footer>
+    <footer class="footer">Pre Beta - Demo V1 21 April 2019</footer>
 </page-container>
 
 <!-- END LOADING SCRIPTS -->

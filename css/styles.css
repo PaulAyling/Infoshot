@@ -2,7 +2,7 @@
 /* for custom classes see styles.css*/
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: arial,sans-serif;
     color:#636363;
     width:100%
 }
@@ -84,7 +84,7 @@ header{
         flex-direction:column;
     }
     .settings {
-        padding:3px;
+        padding:0px;
         width:100%;
         display:flex;
         flex-direction: row;
@@ -237,7 +237,7 @@ article{
         }
         .siteContainer > .siteTitle {
             text-decoration:none;
-            font-size: 12px;
+            font-size: 14px;
             color: black;
         
         }
@@ -267,10 +267,10 @@ article{
                     opacity: 0.8;
                 } 
                 .siteTitle{
-                    width:100%;
                     text-decoration:none;
-                    font-size:13px;
-                    padding:5px;
+                    font-size:small;
+                    line-height: 1.54;
+    
                 }
 
                     .siteTitle :hover{
@@ -286,48 +286,62 @@ footer{
     text-align: center;   
 }
 
-  /* COMPONENTS*/
-
-
-
-
-
-
-/*      LAYOUT ELEMENTS    ***************************/
-
-
-/*      STYLES    ***************************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
 
   /* MEDIA QUERIES */
+  @media(min-width: 50px){
+    .subject-question  {
+        font-size: 1em;   
+    }
+    .siteContainer > .siteTitle  {
+        font-size:small;
+        line-height: 1em;
+        line-height: small;
+    }
+    main{
+        flex-direction:column;
+    }
+}  
 
-  @media(min-width: 500px){
+  @media(min-width: 300px){
     .subject-question  {
         font-size: 1.5em;   
     }
-    .siteTitle {
-        font-size:15px;
-        line-height: 20px
+    .siteContainer > .siteTitle  {
+        font-size:small;
+        line-height: 1em;
+        line-height: small;
     }
-    
+    main{
+        flex-direction:row;
+    }
+}  
+  @media(min-width: 350px){
+    .subject-question  {
+        font-size:medium;
+        line-height: 1.2em;  
+    }
+    .siteContainer > .siteTitle  {
+        font-size:medium;
+        line-height: 1em;
+        line-height: small;
+    }  
+    main{
+        flex-direction:row;
+    }
 }
+@media(min-width: 700px){
+    .subject-question  {
+        font-size: 2.5em;   
+    }
+    .siteContainer > .siteTitle  {
+        font-size:medium;
+        line-height: 1.2em;
+     
+    }
+    main{
+        flex-direction:row;
+    }
+}  
 
-  
 
 

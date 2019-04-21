@@ -9,7 +9,7 @@
            <link rel="stylesheet" type="text/css"  href="css/stylereset.css"> 
            <link rel="stylesheet" type="text/css"  href="css/buttons.css">
            <link rel="stylesheet" type="text/css"  href="css/testing.css">
-           <link rel="stylesheet" type="text/css"  href="css/style.css">
+           <link rel="stylesheet" type="text/css"  href="css/styles.css">
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -24,78 +24,78 @@
 <body>
     <page-container>
 
-        <header>
-                <div>
-                    <a href="https://www.infoshot.io"><img class="logo" src="http://informedgroup.io/hyper/v10/images/logo.png" alt="Hypermap Logo"></a>
-                </div> 
-                <div class ="subject-question">
-                        <p id="question">Infoshot Generic header</p>
-                </div>
-                <div>
-                    <span></span>
-                    <label class="switch">
-                    <input type="checkbox"  onclick="showActionBar()" class="fas fa-cog" checked></i>
-                        <span class="slider round"></span>
-                    </label>  
-                </div>
-                
-        </header >
-        <section class="toolbar">
-            <div class="settings"> 
-                <div class="micro-nav">
-                    <div  class="tool">
-                            <div><i class="fab fa-sourcetree"></i></div>
-                            <label class="switch">
-                                <input type="checkbox" onclick="showIcons()" >
-                                <span class="slider round"></span>
-                            </label>  
+            <header>
+                    <div>
+                        <a href="https://www.infoshot.io"><img class="logo" src="images/infoshot-logo.png" alt="Hypermap Logo"></a>
+                    </div> 
+                    <div class ="subject-question">
+                            <p id="question">Infoshot Generic header</p>
                     </div>
-                    <div  class="tool">
-                            <div><i class="fas fa-users"></i></div>
-                            <label class="switch">
-                                <input type="checkbox" onclick="showUserBar()" checked>
-                                <span class="slider round"></span>
-                            </label>  
+                    <div>
+                        <label class="switch">
+                        <input type="checkbox"  onclick="showActionBar()" class="fas fa-cog" checked></i>
+                            <span class="slider round"></span>
+                        </label>  
                     </div>
-                    <div  class="tool">
-                            <div><i class="fas fa-sitemap"></i></div>
-                            <label class="switch">
-                                <input type="checkbox" onclick="showsiteContainer()" checked >
-                                <span class="slider round"></span>
-                            </label>  
+                    
+            </header >
+            <section class="all-tools">
+    
+                <div class="settings"> 
+                    <div class="micro-nav">
+                        <div  class="switch-container">
+                                <div><i class="fab fa-sourcetree"></i></div>
+                                <label class="switch">
+                                    <input type="checkbox" onclick="showIcons()" >
+                                    <span class="slider round"></span>
+                                </label>  
                         </div>
-                    <div  class="tool">
-                        <div><i class="fas fa-mobile-alt"></i></div>
-                            <label class="switch">
-                                <input type="checkbox" onclick="showResponsive()" >
-                                <span class="slider round"></span>
-                            </label>  
-                    </div>
-                </div>
-
-
-                <div class="macro-nav">
-                    <div class="right-tools ">
-                        <button onclick="showsShareBox()">
-                            <i class="fas fa-share-alt-square"></i>
-                        </button>
-                    </div>
-                    <div class="right-tools ">
-                        <button>
-                            <a href="./" target="blank">
-                                <i class="fas fa-arrows-alt"></i>
-                            </a>
-                        </button>
-                    </div>
-                    <div class="right-tools ">
-                        <button>
-                            <a href="./" target="blank"><i class="fas fa-angle-double-right"></i>
-                            </a></button> 
+                        <div  class="switch-container">
+                                <div><i class="fas fa-users"></i></div>
+                                <label class="switch">
+                                    <input type="checkbox" onclick="showUserBar()" checked>
+                                    <span class="slider round"></span>
+                                </label>  
+                        </div>
+                        <div  class="switch-container">
+                                <div><i class="fas fa-sitemap"></i></div>
+                                <label class="switch">
+                                    <input type="checkbox" onclick="showsiteContainer()" checked >
+                                    <span class="slider round"></span>
+                                </label>  
+                            </div>
+                        <div  class="switch-container">
+                            <div><i class="fas fa-mobile-alt"></i></div>
+                                <label class="switch">
+                                    <input type="checkbox" onclick="showResponsive()" >
+                                    <span class="slider round"></span>
+                                </label>  
                         </div>
                     </div>
+    
+    
+                    <div class="macro-nav">
+                        <div>
+                            <button onclick="showsShareBox()">
+                                <i class="fas fa-share-alt-square"></i>
+                            </button>
+                        </div>
+                        <div>
+                            <button>
+                                <a href="./" target="blank">
+                                    <i class="fas fa-arrows-alt"></i>
+                                </a>
+                            </button>
+                        </div>
+                        <div>
+                            <button>
+                                <a href="./" target="blank"><i class="fas fa-angle-double-right"></i>
+                                </a></button> 
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
+       
 
             <div class="avatar-bar">
                 <div class="avatar " onclick="myFunction()" > 
