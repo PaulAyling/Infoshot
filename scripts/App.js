@@ -10,7 +10,7 @@ var dataToRenderForFacts = [];
 var filteredFacts = factData.filter(x => x.columnId == "1");
 var filteredFors = factData.filter(x => x.columnId == "2");
 var filteredAgainst = factData.filter(x => x.columnId == "3");
-var question = factData.filter(x => x.columnId == "100");
+var orderData = factData.filter(x => x.columnId == "100");
 console.log("Array: filteredFacts ")
 console.log(filteredFacts)
 console.log("Array: filteredFors ")

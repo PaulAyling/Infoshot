@@ -1,6 +1,7 @@
 [
   {
     "infoshotId": 1,
+    "infoshotCreator": 1,
     "userId": 1,
     "userName": "Paul",
     "userImage": "http://informedgroup.io/hyper/v5/images/paul_headshot_linkedin_300.jpg",
@@ -21,6 +22,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 1,
     "userId": 1,
     "userName": "Paul",
     "userImage": "http://informedgroup.io/hyper/v5/images/paul_headshot_linkedin_300.jpg",
@@ -41,6 +43,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 1,
     "userId": 1,
     "userName": "Paul",
     "userImage": "http://informedgroup.io/hyper/v5/images/paul_headshot_linkedin_300.jpg",
@@ -61,6 +64,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 1,
     "userId": 1,
     "userName": "Paul",
     "userImage": "http://informedgroup.io/hyper/v5/images/paul_headshot_linkedin_300.jpg",
@@ -81,6 +85,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 1,
     "userId": 1,
     "userName": "Paul",
     "userImage": "http://informedgroup.io/hyper/v5/images/paul_headshot_linkedin_300.jpg",
@@ -101,6 +106,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 1,
     "userId": 1,
     "userName": "Paul",
     "userImage": "http://informedgroup.io/hyper/v5/images/paul_headshot_linkedin_300.jpg",
@@ -121,6 +127,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 1,
     "userId": 1,
     "userName": "Paul",
     "userImage": "http://informedgroup.io/hyper/v5/images/paul_headshot_linkedin_300.jpg",
@@ -141,6 +148,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 1,
     "userId": 1,
     "userName": "Paul",
     "userImage": "http://informedgroup.io/hyper/v5/images/paul_headshot_linkedin_300.jpg",
@@ -161,6 +169,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 1,
     "userId": 1,
     "userName": "Paul",
     "userImage": "http://informedgroup.io/hyper/v5/images/paul_headshot_linkedin_300.jpg",
@@ -181,6 +190,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 2,
     "userName": "Mark",
     "userImage": "http://informedgroup.io/hyper/v5/images/mark-cheeze.jpg",
@@ -201,6 +211,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 2,
     "userName": "Mark",
     "userImage": "http://informedgroup.io/hyper/v5/images/mark-cheeze.jpg",
@@ -221,6 +232,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 2,
     "userName": "Mark",
     "userImage": "http://informedgroup.io/hyper/v5/images/mark-cheeze.jpg",
@@ -241,6 +253,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 2,
     "userName": "Mark",
     "userImage": "http://informedgroup.io/hyper/v5/images/mark-cheeze.jpg",
@@ -261,6 +274,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 2,
     "userName": "Mark",
     "userImage": "http://informedgroup.io/hyper/v5/images/mark-cheeze.jpg",
@@ -281,6 +295,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 2,
     "userName": "Mark",
     "userImage": "http://informedgroup.io/hyper/v5/images/mark-cheeze.jpg",
@@ -301,6 +316,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 2,
     "userName": "Mark",
     "userImage": "http://informedgroup.io/hyper/v5/images/mark-cheeze.jpg",
@@ -321,6 +337,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 2,
     "userName": "Mark",
     "userImage": "http://informedgroup.io/hyper/v5/images/mark-cheeze.jpg",
@@ -341,6 +358,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 2,
     "userName": "Mark",
     "userImage": "http://informedgroup.io/hyper/v5/images/mark-cheeze.jpg",
@@ -361,6 +379,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 2,
     "userName": "Mark",
     "userImage": "http://informedgroup.io/hyper/v5/images/mark-cheeze.jpg",
@@ -381,11 +400,12 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 3,
     "userName": "Sue",
     "userImage": "http://informedgroup.io/hyper/v5/images/sue.jpg",
     "columnId": 1,
-    "columnName": "Against",
+    "columnName": "Facts",
     "subjectId": 1,
     "subjectName": "Editorial",
     "linkName": "Why Delayed acceptance by medical community",
@@ -401,6 +421,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 3,
     "userName": "Sue",
     "userImage": "http://informedgroup.io/hyper/v5/images/sue.jpg",
@@ -421,6 +442,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 3,
     "userName": "Sue",
     "userImage": "http://informedgroup.io/hyper/v5/images/sue.jpg",
@@ -441,6 +463,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 3,
     "userName": "Sue",
     "userImage": "http://informedgroup.io/hyper/v5/images/sue.jpg",
@@ -461,6 +484,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 3,
     "userName": "Sue",
     "userImage": "http://informedgroup.io/hyper/v5/images/sue.jpg",
@@ -481,6 +505,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 3,
     "userName": "Sue",
     "userImage": "http://informedgroup.io/hyper/v5/images/sue.jpg",
@@ -501,6 +526,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 3,
     "userName": "Sue",
     "userImage": "http://informedgroup.io/hyper/v5/images/sue.jpg",
@@ -521,6 +547,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 3,
     "userName": "Sue",
     "userImage": "http://informedgroup.io/hyper/v5/images/sue.jpg",
@@ -541,6 +568,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 3,
     "userName": "Sue",
     "userImage": "http://informedgroup.io/hyper/v5/images/sue.jpg",
@@ -561,6 +589,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 3,
     "userName": "Sue",
     "userImage": "http://informedgroup.io/hyper/v5/images/sue.jpg",
@@ -581,6 +610,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 3,
     "userName": "Sue",
     "userImage": "http://informedgroup.io/hyper/v5/images/sue.jpg",
@@ -601,6 +631,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 3,
     "userName": "Sue",
     "userImage": "http://informedgroup.io/hyper/v5/images/sue.jpg",
@@ -621,6 +652,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 3,
     "userName": "Sue",
     "userImage": "http://informedgroup.io/hyper/v5/images/sue.jpg",
@@ -641,6 +673,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 3,
     "userName": "Sue",
     "userImage": "http://informedgroup.io/hyper/v5/images/sue.jpg",
@@ -661,11 +694,12 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 4,
     "userName": "Nigel",
     "userImage": "http://informedgroup.io/hyper/v5/images/nigel.jpg",
     "columnId": 1,
-    "columnName": "Against",
+    "columnName": "Facts",
     "subjectId": 1,
     "subjectName": "Editorial",
     "linkName": "Why Delayed acceptance by medical community",
@@ -681,6 +715,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 4,
     "userName": "Nigel",
     "userImage": "http://informedgroup.io/hyper/v5/images/nigel.jpg",
@@ -701,6 +736,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 4,
     "userName": "Nigel",
     "userImage": "http://informedgroup.io/hyper/v5/images/nigel.jpg",
@@ -721,6 +757,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 4,
     "userName": "Nigel",
     "userImage": "http://informedgroup.io/hyper/v5/images/nigel.jpg",
@@ -741,6 +778,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 4,
     "userName": "Nigel",
     "userImage": "http://informedgroup.io/hyper/v5/images/nigel.jpg",
@@ -761,6 +799,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 4,
     "userName": "Nigel",
     "userImage": "http://informedgroup.io/hyper/v5/images/nigel.jpg",
@@ -781,6 +820,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 4,
     "userName": "Nigel",
     "userImage": "http://informedgroup.io/hyper/v5/images/nigel.jpg",
@@ -801,6 +841,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 4,
     "userName": "Nigel",
     "userImage": "http://informedgroup.io/hyper/v5/images/nigel.jpg",
@@ -821,6 +862,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 4,
     "userName": "Nigel",
     "userImage": "http://informedgroup.io/hyper/v5/images/nigel.jpg",
@@ -841,6 +883,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 4,
     "userName": "Nigel",
     "userImage": "http://informedgroup.io/hyper/v5/images/nigel.jpg",
@@ -861,6 +904,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 4,
     "userName": "Nigel",
     "userImage": "http://informedgroup.io/hyper/v5/images/nigel.jpg",
@@ -881,6 +925,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 4,
     "userName": "Nigel",
     "userImage": "http://informedgroup.io/hyper/v5/images/nigel.jpg",
@@ -901,6 +946,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 4,
     "userName": "Nigel",
     "userImage": "http://informedgroup.io/hyper/v5/images/nigel.jpg",
@@ -921,6 +967,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 4,
     "userName": "Nigel",
     "userImage": "http://informedgroup.io/hyper/v5/images/nigel.jpg",
@@ -941,6 +988,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 4,
     "userName": "Nigel",
     "userImage": "http://informedgroup.io/hyper/v5/images/nigel.jpg",
@@ -961,6 +1009,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 0,
     "userId": 4,
     "userName": "Nigel",
     "userImage": "http://informedgroup.io/hyper/v5/images/nigel.jpg",
@@ -981,6 +1030,7 @@
   },
   {
     "infoshotId": 1,
+    "infoshotCreator": 1,
     "userId": "",
     "userName": "",
     "userImage": "",
@@ -989,7 +1039,7 @@
     "subjectId": 100,
     "subjectName": "Header",
     "linkName": "Should I visit an Osteo?",
-    "linkUrl": "",
+    "linkUrl": "www.paulayling.me/blog",
     "Comments": "",
     "creator": "",
     "Visible": "",

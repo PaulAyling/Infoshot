@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jimmyyukka/Infoshot/issues"
   },
-  "homepage": "https://github.com/jimmyyukka/Infoshot#readme"
+  "homepage": "https://github.com/jimmyyukka/Infoshot#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }

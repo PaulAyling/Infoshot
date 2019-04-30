@@ -22,7 +22,7 @@
 
 </head>
 <body>
-    <page-container>
+    <div class="page-container">
 
         <header>
                 <div>
@@ -33,7 +33,7 @@
                 </div>
                 <div>
                     <label class="switch">
-                    <input type="checkbox"  onclick="showActionBar()" class="fas fa-cog" checked></i>
+                        <input type="checkbox"  onclick="showActionBar()" class="fas fa-cog" checked></i>
                         <span class="slider round"></span>
                     </label>  
                 </div>
@@ -44,32 +44,40 @@
             <div class="settings"> 
                 <div class="micro-nav">
                     <div  class="switch-container">
-                            <div><i class="fab fa-sourcetree"></i></div>
-                            <label class="switch">
-                                <input type="checkbox" onclick="showIcons()" >
-                                <span class="slider round"></span>
-                            </label>  
-                    </div>
-                    <div  class="switch-container">
-                            <div><i class="fas fa-users"></i></div>
-                            <label class="switch">
-                                <input type="checkbox" onclick="showUserBar()" checked>
-                                <span class="slider round"></span>
-                            </label>  
-                    </div>
-                    <div  class="switch-container">
-                            <div><i class="fas fa-sitemap"></i></div>
-                            <label class="switch">
-                                <input type="checkbox" onclick="showsiteContainer()" checked >
-                                <span class="slider round"></span>
-                            </label>  
+                        <div>
+                            <i class="fab fa-sourcetree"></i>
                         </div>
+                        <label class="switch">
+                            <input type="checkbox" onclick="showIcons()" >
+                            <span class="slider round"></span>
+                        </label>  
+                    </div>
                     <div  class="switch-container">
-                        <div><i class="fas fa-mobile-alt"></i></div>
-                            <label class="switch">
-                                <input type="checkbox" onclick="showResponsive()" >
-                                <span class="slider round"></span>
-                            </label>  
+                        <div>
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <label class="switch">
+                            <input type="checkbox" onclick="showUserBar()" checked>
+                            <span class="slider round"></span>
+                        </label>  
+                    </div>
+                    <div  class="switch-container">
+                        <div>
+                            <i class="fas fa-sitemap"></i>
+                        </div>
+                        <label class="switch">
+                            <input type="checkbox" onclick="showsiteContainer()" checked >
+                            <span class="slider round"></span>
+                        </label>  
+                    </div>
+                    <div  class="switch-container">
+                        <div>
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <label class="switch">
+                            <input type="checkbox" onclick="showResponsive()" >
+                            <span class="slider round"></span>
+                        </label>  
                     </div>
                 </div>
 
@@ -90,35 +98,32 @@
                     <div>
                         <button>
                             <a href="./" target="blank"><i class="fas fa-angle-double-right"></i>
-                            </a></button> 
-                        </div>
+                            </a>
+                        </button> 
                     </div>
                 </div>
             </div>
-   
 
             <div class = "userBar"></div> 
             <div id="imgDetail"></div>
-            </section>
-
-
+        </section>
                         
-<section class="embed">
-        <textarea class="sharebox" style="color: #777">&lt;iframe src="http://www.infoshot.io/infoshots/3-cm/" frameborder="0" scrolling="no" width=100% height=100%'&gt;&lt;/iframe&gt;</textarea>
-</section>
-    <main class="main"> 
-        <article>
-            <div id ="col1"></div>  
-        </article>
-        <article>
-            <div id ="col2"></div>  
-        </article>        
-        <article>
-            <div id ="col3"></div>
-        </article>
-    </main>
-    <footer class="footer">Pre Beta - Demo V1 21 April 2019</footer>
-</page-container>
+        <section class="embed">
+                <textarea class="sharebox" style="color: #777">&lt;iframe src="http://www.infoshot.io/infoshots/3-cm/" frameborder="0" scrolling="no" width=100% height=100%'&gt;&lt;/iframe&gt;</textarea>
+        </section>
+        <main class="main"> 
+            <article>
+                <div id ="col1"></div>  
+            </article>
+            <article>
+                <div id ="col2"></div>  
+            </article>        
+            <article>
+                <div id ="col3"></div>
+            </article>
+        </main>
+        <footer class="footer">Pre Beta - Demo V1 21 April 2019</footer>
+</div>
 
 <!-- END LOADING SCRIPTS -->
                   <script  src="scripts/App-osteo.js"></script>

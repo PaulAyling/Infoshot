@@ -1,16 +1,7 @@
 //get data from JSON //
-function imageClick(d) {
-  console.log(factData[d]);
-  let data = factData.filter(x => x.userId == factData[d].userId);
-  $.each(data,(i,r)=> {
-    delete r.isprocessed;
-  })
-  bindData(data);
-  $('#imgDetail').html(`<div class="nameInfo">` + factData[d].userName + `'s Infoshot           (ID` + factData[d].userId+ `)</div>`);
-}
+
 var factData;
-$.getJSON(
-  "./data/osteo.json", setdata);
+$.getJSON("./data/osteo.json", setdata);
 
   function showAllRecords(event){
     if(!event.checked)
@@ -20,8 +11,22 @@ $.getJSON(
     }
     else {
       bindData(factData);
+     
     }
   }
+//CREATE THE USER PANEL //
+function imageClick(d) {
+  console.log(factData[d]);
+  let data = factData.filter(x => x.userId == factData[d].userId);
+  $.each(data,(i,r)=> {
+    delete r.isprocessed;
+  })
+  bindData(data);
+  $('#imgDetail').html(`<div class="nameInfo">` + factData[d].userName + `'s Infoshot           
+  (ID` + factData[d].userId+ `)</div>`);
+}
+
+
 
 function setdata(data) {
   factData = data;
