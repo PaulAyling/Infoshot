@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+.container{
+    background:red;
+    display:flex;
+    flex-direction:column;
+}
+.left{
+    background:blue;
+    color:white;
+}
+.right{
+    background:green;
+    color:white;
+}
+</style>
+
+<body>
+    
+<div  class ="container">
+    <div class = "left">default</div>
+    <div id="cont1" class = "right">default </div>
+
+</div>
+
+
+</body>
+
+<script>
+  function alertSize() {
+  var myWidth = 0, myHeight = 0;
+  if( typeof( window.innerWidth ) == 'number' ) {
+    //Non-IE
+    myWidth = window.innerWidth;
+    myHeight = window.innerHeight;
+  } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+    //IE 6+ in 'standards compliant mode'
+    myWidth = document.documentElement.clientWidth;
+    myHeight = document.documentElement.clientHeight;
+  } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+    //IE 4 compatible
+    myWidth = document.body.clientWidth;
+    myHeight = document.body.clientHeight;
+  }
+  console.log('Width = ' + myWidth+"px" );
+  console.log('Height = ' + myHeight );
+  document.getElementById("page-container").style.width = myWidth -10 +"px";
+}
+alertSize();
+</script>
+
+</html>

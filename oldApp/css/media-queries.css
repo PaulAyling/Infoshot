@@ -1,0 +1,62 @@
+/* MEDIA QUERIES */
+@media(min-width: 50px){
+    .subject-question  {
+        font-size: 1em;   
+    }
+    .siteContainer > .siteTitle  {
+        font-size:small;
+        line-height: 1em;
+        line-height: small;
+    }
+    main{
+        flex-direction:column;
+    }
+}  
+
+@media(min-width: 300px){
+    .subject-question  {
+        font-size: 1.5em;   
+    }
+    .siteContainer > .siteTitle  {
+        font-size:small;
+        line-height: 1em;
+        line-height: small;
+        
+    }
+    main{
+        flex-direction:row;
+    }
+    }  
+    @media(min-width: 350px){
+    .subject-question  {
+        font-size:medium;
+        line-height: 1.2em;  
+    }
+    .siteContainer > .siteTitle  {
+        font-size:small;
+        line-height: 1em;
+        line-height: small;
+        color:black;
+    }  
+    main{
+        flex-direction:row;
+    }
+}
+
+
+@media(min-width: 700px){
+    .subject-question  {
+        font-size: 2.5em;   
+    }
+    .siteContainer > .siteTitle  {
+        font-size:medium;
+        line-height: 1.2em;  
+    }
+    main{
+        flex-direction:row;
+    }
+    
+}  
+
+
+

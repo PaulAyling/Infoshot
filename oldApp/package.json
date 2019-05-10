@@ -1,0 +1,24 @@
+{
+  "name": "Infoshot",
+  "version": "1.0.0",
+  "description": "MAIN REPO FOR INFOSHOT",
+  "main": "infoshot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmyyukka/Infoshot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimmyyukka/Infoshot/issues"
+  },
+  "homepage": "https://github.com/jimmyyukka/Infoshot#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.17.1"
+  }
+}
